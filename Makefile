@@ -1,7 +1,7 @@
 all: hello
 
 hello: hello.o myFunction.o myFunction2.o
-	gcc -o hello hello.o  myFunction.o myFunction2.o -lm
+	gcc -o hello hello.o myFunction.o myFunction2.o -lm
 
 myFunction.o: myFunction.c
 	gcc -c myFunction.c

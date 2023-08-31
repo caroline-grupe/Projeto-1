@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-double f1(double);
-double f2(double);
+#include "myFunction.h"
+#include "myFunction2.h"
 
 int main (){
     double f = 1.234;
